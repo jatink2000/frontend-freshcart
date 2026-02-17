@@ -21,7 +21,7 @@ import Signup from "./componant/Signup";
 import ResetPassword from "./componant/Resetpass";
 import Dashboard from "./componant/Dashboard";
 import ProductDetail from "./componant/ProductDeatils";
-import Wishlist from "./componant/wishlist";
+// import Wishlist from "./componant/wishlist";
 import CustomerList from "./componant/Customer";
 import EditProduct from "./componant/EditProduct"
 import MyAccount from "./componant/Myaccount";
@@ -62,7 +62,7 @@ function App() {
           <Route path="/signup" element={<Signup />} />
           <Route path="/resetpass" element={<ResetPassword/>} />
           <Route path="/productdeatil" element={<ProductDetail/>} />
-          <Route path="/wishlist" element={<Wishlist/>} />
+          {/* <Route path="/wishlist" element={<Wishlist/>} /> */}
           <Route path="/customer" element={<CustomerList/>} />
           <Route path="/editproduct" element={<EditProduct/>} />
           <Route path="/myaccount" element={<MyAccount/>} />
@@ -73,8 +73,6 @@ function App() {
           <Route path="/Address" element={<AddressForm/>} />
           <Route path="/orderlist" element={<OrderList/>} />
           <Route path="/ordersingle" element={<OrderSingle/>} />
-
-          
         </Routes>
       </BrowserRouter>
       <Footer />
