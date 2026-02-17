@@ -118,7 +118,7 @@ export default function NavBar() {
                 <li><Link to="/login">Sign in</Link></li>
                 <li><Link to="/signup">Sign up</Link></li>
                 <li><Link to="/resetpass">Forget password</Link></li>
-                <li><Link to="/myaccount">My Account</Link></li>
+                {/* <li><Link to="/myaccount">My Account</Link></li> */}
 
               </ul>
             </div>

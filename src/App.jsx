@@ -24,7 +24,7 @@ import ProductDetail from "./componant/ProductDeatils";
 // import Wishlist from "./componant/wishlist";
 import CustomerList from "./componant/Customer";
 import EditProduct from "./componant/EditProduct"
-import MyAccount from "./componant/Myaccount";
+// import MyAccount from "./componant/Myaccount";
 import Category from "./componant/Category";
 import AddCategory from "./componant/Addcategory";
 import Feauturecategory from "./componant/FeaturedCategories";
@@ -65,7 +65,7 @@ function App() {
           {/* <Route path="/wishlist" element={<Wishlist/>} /> */}
           <Route path="/customer" element={<CustomerList/>} />
           <Route path="/editproduct" element={<EditProduct/>} />
-          <Route path="/myaccount" element={<MyAccount/>} />
+          {/* <Route path="/myaccount" element={<MyAccount/>} /> */}
           <Route path="/category" element={<Category/>} />
           <Route path="/addcategory" element={<AddCategory/>} />
           <Route path="/reviewpage" element={<Reviewpage/>} />
