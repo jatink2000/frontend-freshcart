@@ -41,10 +41,10 @@ export default function Header() {
         {/* RIGHT: ICONS + MOBILE TOGGLE */}
         <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
           <div className="header-icons" aria-hidden={mobileOpen ? "true" : "false"}>
-            <div className="icon-box" title="Wishlist" role="button" tabIndex={0}>
+            {/* <div className="icon-box" title="Wishlist" role="button" tabIndex={0}>
                <NavLink to="/wishlist">
               <Heart size={20} /></NavLink>
-            </div>
+            </div> */}
 
             <div className="icon-box" title="Account" role="button" tabIndex={0}>
               <NavLink to="/login">
