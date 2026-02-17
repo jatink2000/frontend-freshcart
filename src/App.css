@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+:root {
+  --btn-bg:rgb(195, 245, 149);
+  --green-main: #03b903;
+  --green-dark: #024d02;
+  --gray-text: #6b7280;
+  --border-color: #e5e7eb;
+  --bg-body: #e6e6e6;
+  --heading:#117016;
+  --remove-btn:#dc2626;
+ --text-color:rgb(73, 73, 73);
+}
+
+
+
